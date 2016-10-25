@@ -13,4 +13,4 @@ applications:
   - conversation-simple
   env:
     NPM_CONFIG_PRODUCTION: false
-    WORKSPACE_ID=f2c925af-264b-4dbc-a1e2-52267b13d15a
+    WORKSPACE_ID: f2c925af-264b-4dbc-a1e2-52267b13d15a
