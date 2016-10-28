@@ -55,8 +55,8 @@ var conversation = new Watson( {
 
 // Endpoint to be call from the client side
 app.post( '/api/message', function(req, res) {
-  var workspace = process.env.WORKSPACE_ID || '<workspace-id>';
-  if ( !workspace || workspace === '<workspace-id>' ) {
+  var workspace = process.env.WORKSPACE_ID || 'f2c925af-264b-4dbc-a1e2-52267b13d15a';
+  if ( !workspace) {
     return res.json( {
       'output': {
         'text': 'The app has not been configured with a <b>WORKSPACE_ID</b> environment variable. Please refer to the ' +
